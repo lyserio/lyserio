@@ -23,9 +23,31 @@
 
 			background: #21D4FD;
 			background: linear-gradient(309deg, #21D4FD 0%, #B721FF 90%);
-
-
+			/*background: linear-gradient(235deg, #1dac75, #19989f, #1c81d4, #9c43e4, #b91e9f);
+			background-size: 1000% 1000%;
+			-webkit-animation: gradientboost 20s ease infinite;
+			-moz-animation: gradientboost 20s ease infinite;
+			animation: gradientboost 20s ease infinite;*/
 		}
+
+		@-webkit-keyframes gradientboost {
+			0%{background-position:96% 0%}
+			50%{background-position:5% 100%}
+			100%{background-position:96% 0%}
+		}
+
+		@-moz-keyframes gradientboost {
+			0%{background-position:96% 0%}
+			50%{background-position:5% 100%}
+			100%{background-position:96% 0%}
+		}
+
+		@keyframes gradientboost { 
+			0%{background-position:96% 0%}
+			50%{background-position:5% 100%}
+			100%{background-position:96% 0%}
+		}
+
 		.tagline {
 			font-family: 'Merriweather', serif;
 		}
@@ -59,6 +81,10 @@
 			box-shadow: 2px 4px 18Px 0px rgba(0, 0, 0, 0.25);
 		}
 
+		.products > a > img {
+			width: 100%;
+			display: block;
+		}
 
 		.eliopay {
 			background: #03a3e0;
@@ -69,7 +95,7 @@
 		.nucleus {
 			background: #00b5a9;
 			background: linear-gradient(to right, #00b5a9, #0092b3);
-			padding: 15px;
+			padding: 0px;
 		}
 
 		.harmony {
@@ -84,9 +110,6 @@
 			background: linear-gradient(to left, #a21ba1 0%, #ce4dc1 100%);
 		}
 
-		.products > a > img {
-			width: 100%;
-		}
 
 		a[href*=twitter] {
 			background-color: #1e99e6;
@@ -107,11 +130,19 @@
 		<h1>We create innovative bootstrapped products.</h1>
 	</div>
 	<div class='products'>
-		<a class='nucleus' target='_blank' href='https://nucleus.sh'><img src="./img/nucleus.png"></a>
+		<a class='nucleus' target='_blank' href='https://nucleus.sh'><img src="./img/nucleus.svg"></a>
 		<a class='eliopay' target='_blank' href='https://eliopay.com'><img src="./img/eliopay.svg"></a>
 		<a class='harmony' target='_blank' href='https://getharmony.xyz'><img src="./img/harmony.png"></a>
 		<a class='lttrfeed' target='_blank' href='https://lttrfeed.com'><img src="./img/lttrfeed.svg"></a>
 	</div>
+
+	<div class='experiments'>
+		Experiments:
+		<a  target='_blank' href='https://spotfinder.lyser.io'>Kitesurf Spot Finder</a>
+		<a  target='_blank' href='https://cryptohorror.lyser.io'>Crypto Horror Stories</a>
+		<a  target='_blank' href='https://comparekite.fr'>CompareKite</a>
+	</div>
+
 
 	<p>By <a href='https://twitter.com/vincelwt'>@vincelwt</a> — hello@lyser.io</p>
 
