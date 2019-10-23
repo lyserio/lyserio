@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<link rel="icon" type="image/png" href="favicon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="French startup studio building bootstrapped products since 2013.">
+	<meta name="description" content="Startup studio building bootstrapped products since 2015.">
 	<style>
 		body {
 			margin: 0;
@@ -35,16 +35,12 @@
 		}
 
 		.tagline {
-			padding: 50px 30px 70px 30px;
-		}
-
-		.tagline > h1 {
+			padding: 70px 30px 70px 30px;
 			font-size: 50px;
 		}
 
 		.products {
 			margin: 30px 0 100px 0;
-			
 		}
 
 		.products > a:hover {
@@ -119,13 +115,14 @@
 
 
 		a[href*=twitter] {
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 			background-color: #1e99e6;
 			text-decoration: none;
 			-webkit-border-radius: 3px;
 			border-radius: 3px;
 			color: #fff;
 			cursor: pointer;
-			font-size: 12px;
+			font-size: 0.8em;
 			font-weight: 600;
 			line-height: 30px;
 			padding: 3px 6px 4px;
@@ -146,15 +143,23 @@
 		.experiments a:hover {
 			border-bottom: 2px dashed #fff;
 		}
+
+		.about {
+			max-width: 600px;
+			margin: 0 auto 50px auto;
+			border-radius: 12px;
+			padding: 10px 20px;
+			border: 1px solid #ccc;
+		}
 	</style>
 	
 	<script defer src="https://unpkg.com/tippy.js@3/dist/tippy.all.min.js"></script>
 
 </head>
 <body>
-	<div class="tagline">
-		<h1>We are a startup stadio.</h1>
-	</div>
+	
+	<h1 class="tagline">We are a startup stadio.</h1>
+	
 	<div class='products'>
 		<a class='backery' data-tippy="Backery.io<br><small>Web app and database deployment at its simplest.</small>" target='_blank' href='https://backery.io'><img src="./img/backery.svg"></a>
 		<a class='nucleus' data-tippy="Nucleus<br><small>Analytics & bug tracking for desktop.</small>" target='_blank' href='https://nucleus.sh'><img src="./img/nucleus.svg"></a>
@@ -176,7 +181,13 @@
 
 	<p>We're researching and improving the formula to successful products.</p>
 	<p>Need help building a MVP? <a href='/factory'>We do that</a></p>
+	<p>Contact us → hello@lyser.io</p>
 
-	<p><small>hello@lyser.io - most work by <a href='https://twitter.com/vincelwt'>@vincelwt</a></small></p>
+	<br><br>
+
+	<div class="about">
+		<p><b>Hi!</b> I'm Vince the guy who built most of these products. Read the occasionnal stuff I write <a href='https://vincelwt.github.oo'>here</a> or follow me on Twitter <a href='https://twitter.com/vincelwt'>@vincelwt</a>.</p>
+		<p>If you'd like to meet I'm available for ☕️ in Paris ;) </p>
+	</div>
 
 </body>
