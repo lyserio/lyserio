@@ -10,53 +10,40 @@
 			margin: 0;
 			padding: 0;
 			line-height: 1.5;
-			text-align: left;
+			text-align: center;
 			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-			font-size: 16px;
+			font-size: 20px;
 			-webkit-font-smoothing: antialiased;
-			display: flex;
-			color: #fff;
-			padding-left: 10%; 
-			height: 100%;
-			
-			flex-direction: column;
-			justify-content: center;
-
-			background: #21D4FD;
-			background: linear-gradient(309deg, #21D4FD 0%, #B721FF 90%);
+			background-color: rgb(244, 248, 251);
 		}
 
-		@-webkit-keyframes gradientboost {
-			0%{background-position:96% 0%}
-			50%{background-position:5% 100%}
-			100%{background-position:96% 0%}
+		p {
+			font-family: Georgia, serif;
 		}
 
-		@-moz-keyframes gradientboost {
-			0%{background-position:96% 0%}
-			50%{background-position:5% 100%}
-			100%{background-position:96% 0%}
+		p > a {
+			text-decoration: none;
+			color: #000;
+			word-break: break-word;
+			-webkit-box-shadow: #3eb0ef 0 -1px 0 inset;
+			box-shadow: inset 0 -1px 0 #3eb0ef;
 		}
 
-		@keyframes gradientboost { 
-			0%{background-position:96% 0%}
-			50%{background-position:5% 100%}
-			100%{background-position:96% 0%}
+		p > small {
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+			font-size: 15px;
 		}
 
 		.tagline {
-			font-family: 'Merriweather', serif;
+			padding: 50px 30px 70px 30px;
 		}
 
 		.tagline > h1 {
 			font-size: 50px;
-			max-width: 700px;
-			/*text-align: left;*/
-			text-shadow: 1px 3px 11px rgba(0, 0, 0, 0.25);
 		}
 
 		.products {
-			margin: 10px 0 30px;
+			margin: 30px 0 100px 0;
 			
 		}
 
@@ -160,36 +147,36 @@
 			border-bottom: 2px dashed #fff;
 		}
 	</style>
-	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
+	
 	<script defer src="https://unpkg.com/tippy.js@3/dist/tippy.all.min.js"></script>
 
 </head>
 <body>
 	<div class="tagline">
-		<h1>We create innovative bootstrapped products.</h1>
+		<h1>We are a startup stadio.</h1>
 	</div>
 	<div class='products'>
 		<a class='backery' data-tippy="Backery.io<br><small>Web app and database deployment at its simplest.</small>" target='_blank' href='https://backery.io'><img src="./img/backery.svg"></a>
 		<a class='nucleus' data-tippy="Nucleus<br><small>Analytics & bug tracking for desktop.</small>" target='_blank' href='https://nucleus.sh'><img src="./img/nucleus.svg"></a>
 		<a class='litch' data-tippy="Litch.app<br><small>Create beautiful payment pages.</small>" target='_blank' href='https://litch.app'><img src="./img/litch.svg"></a>
 		<a class='harmony' data-tippy="Harmony<br><small>Beautiful music player, holding all your music.</small>" target='_blank' href='https://getharmony.xyz'><img src="./img/harmony.png"></a>
-		<!-- <a class='musli' data-tippy="Musli.io<br><small>Networking for the music industry.</small>" target='_blank' href='https://musli.io'><img src="./img/musli.svg"></a> -->
-		<!--<a class='lttrfeed' target='_blank' href='https://lttrfeed.com'><img src="./img/lttrfeed.svg"></a>-->
-		<!-- <a class='highdef' data-tippy="Highdef.tv<br><small>Curated videos, not what you're used to.</small>" target='_blank' href='https://highdef.tv'><img src="./img/highdef.svg"></a> -->
+		<a class='musli' data-tippy="Musli.io<br><small>Networking for the music industry.</small>" target='_blank' href='https://musli.io'><img src="./img/musli.svg"></a>
+		<a class='lttrfeed' data-tippy="Lttrfeed<br><small>A better way to read newsletters.</small>" target='_blank' href='https://lttrfeed.com'><img src="./img/lttrfeed.svg"></a>
+		<a class='highdef' data-tippy="Highdef.tv<br><small>Curated videos, not what you're used to.</small>" target='_blank' href='https://highdef.tv'><img src="./img/highdef.svg"></a> 
 	</div>
 
-	<div class='experiments'>
+	<!--<div class='experiments'>
 		Experiments:<br>
 		<a target='_blank' href='https://lttrfeed.com'>💌 Lttrfeed →</a> Newsletters as a feed<br>
 		<a target='_blank' href='https://musli.io'>👨‍🎤 Musli.io →</a> Networking for the music industry<br>
 		<a target='_blank' href='https://highdef.tv'>🎞 Highdef.tv →</a> Curated videos, not what you're used to<br>
-		<!-- <a target='_blank' href='https://cryptohorror.lyser.io'>💸 CryptoHorror →</a><br> -->
 		<a target='_blank' href='http://comparekite.fr'>🏄‍♂️ CompareKite.fr →</a> Kitesurf gear comparison<br>
 		<a target='_blank' href='https://spotfinder.lyser.io'>🗺 SpotFinder →</a> Find kitesurfing spots worldwide<br>
-	</div>
+	</div>-->
 
-	<p>Need an MVP built? That's our specialty.<br>We work <i>fast</i> and deliver quality products. No bullshit. Get in touch :)</p>
+	<p>We're researching and improving the formula to successful products.</p>
+	<p>Need help building a MVP? <a href='/factory'>We do that</a></p>
 
-	<p><small>hello@lyser.io - by <a href='https://twitter.com/vincelwt'>@vincelwt</a></small></p>
+	<p><small>hello@lyser.io - most work by <a href='https://twitter.com/vincelwt'>@vincelwt</a></small></p>
 
 </body>
