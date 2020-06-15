@@ -17,9 +17,6 @@
 			background-color: rgb(244, 248, 251);
 		}
 
-		p {
-			font-family: Georgia, serif;
-		}
 
 		p > a {
 			text-decoration: none;
@@ -30,13 +27,17 @@
 		}
 
 		p > small {
-			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 			font-size: 15px;
 		}
 
 		.tagline {
-			padding: 70px 30px 70px 30px;
+			padding: 70px 30px 20px 30px;
 			font-size: 50px;
+		}
+
+		.subtitle {
+			margin-bottom: 80px;
+			font-size: 25px;
 		}
 
 		.products {
@@ -155,7 +156,8 @@
 			margin: 0 auto 50px auto;
 			border-radius: 12px;
 			padding: 10px 20px;
-			border: 1px solid #ccc;
+			border: 1px solid #e0dfdf;
+			box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.03);
 		}
 	</style>
 	
@@ -165,6 +167,7 @@
 <body>
 	
 	<h1 class="tagline">We are a kick-ass startup studio.</h1>
+	<p class="subtitle">We're researching and improving the formula to successful products.</p>
 	
 	<div class='products'>
 		<a class='anygoal' data-tippy="Anygoal<br><small>The best goal tracking tool there is.</small>" target='_blank' href='https://anygoal.app'><img src="./img/anygoal.svg"></a>
@@ -187,15 +190,16 @@
 		<a target='_blank' href='https://spotfinder.lyser.io'>🗺 SpotFinder →</a> Find kitesurfing spots worldwide<br>
 	</div>-->
 
-	<p>We're researching and improving the formula to successful products.</p>
-	<p>Need help building a MVP? <a href='/factory'>We do that</a></p>
-	<p>Contact us → hello@lyser.io</p>
+	<!-- <p>Need help building a MVP? <a href='/factory'>We do that</a></p> -->
 
-	<br><br>
+	<br>
 
 	<div class="about">
 		<p><b>Hi,</b> I'm Vince the founder.<br>Read the occasionnal stuff I write <a href='http://vincelwt.substack.com'>here</a> or follow me <a href='https://twitter.com/vincelwt'>@vincelwt</a></p>
-		<p><small>If you'd like to meet let's grab ☕️ in Paris</small></p>
+		<iframe src="https://vincelwt.substack.com/embed" width="480" height="150" frameborder="0" scrolling="no"></iframe>
+		<!-- <p><small>If you'd like to meet let's grab ☕️ in Paris</small></p> -->
 	</div>
+
+	<p>Contact us → hello@lyser.io</p>
 
 </body>
