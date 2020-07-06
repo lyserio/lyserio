@@ -1,205 +1,110 @@
 <head>
 	<title>Lyser.io - Bootstrapped startup studio</title>
+	
 	<meta name="google-site-verification" content="63lrS5bqtF1r7HNwz8QLWmfx0TK-rkoi8tgQcvTKyX0" />
-	<meta charset="UTF-8">
+	
+	<meta charset="UTF-8" />
+	
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
 	<link rel="icon" type="image/png" href="favicon.png" />
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 	<meta name="description" content="Startup studio building bootstrapped products since 2015.">
-	<style>
-		body {
-			margin: 0;
-			padding: 20px;
-			line-height: 1.5;
-			text-align: center;
-			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-			font-size: 20px;
-			-webkit-font-smoothing: antialiased;
-			background-color: rgb(244, 248, 251);
-		}
 
-
-		p > a {
-			text-decoration: none;
-			color: #000;
-			word-break: break-word;
-			-webkit-box-shadow: #3eb0ef 0 -1px 0 inset;
-			box-shadow: inset 0 -1px 0 #3eb0ef;
-		}
-
-		p > small {
-			font-size: 15px;
-		}
-
-		.tagline {
-			padding: 70px 30px 20px 30px;
-			font-size: 50px;
-		}
-
-		.subtitle {
-			margin-bottom: 80px;
-			font-size: 25px;
-		}
-
-		.products {
-			margin: 30px 0 100px 0;
-		}
-
-		.products > a:hover {
-			transform: translateY(-3px);
-		}
-
-		.products > a {
-			transition: all 0.3s;
-			display: inline-block;
-			height: 105px;
-			width: 105px;
-			display: inline-block;
-			margin-right: 20px;
-			overflow: hidden;
-			box-sizing: border-box;
-			border-radius: 20px;
-			box-shadow: 2px 4px 18Px 0px rgba(0, 0, 0, 0.2);
-		}
-
-		.products > a > img {
-			width: 100%;
-			display: block;
-		}
-
-		.eliopay {
-			background: #03a3e0;
-			background: linear-gradient(to right, #03a3e0, #376cff);
-			padding: 22px;
-		}
-
-		.litch {
-			background: #03a3e0;
-			background: linear-gradient(to right, #03a3e0, #376cff);
-			padding: 14px;
-		}
-
-		.nucleus {
-			background: #00b5a9;
-			background: linear-gradient(to right, #00b5a9, #0092b3);
-			padding: 0px;
-		}
-
-		.harmony {
-			padding: 22px;
-			background: #00b5a9;
-			background: linear-gradient(to right, #fe03cc, #1eafe6);
-		}
-
-		.lttrfeed {
-			padding: 16px;
-			background: #883e87;
-			background: linear-gradient(to left, #a21ba1 0%, #ce4dc1 100%);
-		}
-
-		.highdef {
-			padding: 14px;
-			background: #241028;
-			background: linear-gradient(to bottom, #0e0b1f 0%, #372279 100%);
-		}
-
-		.backery {
-			padding: 16px;
-			background: #980c65;
-			background: linear-gradient(to right, #980c65 0%, #5d216b 100%);
-		}
-
-		.musli {
-			padding: 10px;
-			background: #6105fd;
-			background: linear-gradient(164deg, #6105fd 21.01%, #2a1dac);
-		}
-
-		.anygoal {
-			padding: 30px;
-			background: #19191A;
-			background: linear-gradient(72deg, #19191a, #424449 70%);
-		}
-
-
-		a[href*=twitter] {
-			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-			background-color: #1e99e6;
-			text-decoration: none;
-			-webkit-border-radius: 3px;
-			border-radius: 3px;
-			color: #fff;
-			cursor: pointer;
-			font-size: 0.8em;
-			font-weight: 600;
-			line-height: 30px;
-			padding: 3px 6px 4px;
-		}
-
-		.experiments {
-			margin: 20px 0;
-		}
-
-		.experiments a {
-			color: white;
-			text-decoration: none;
-			font-weight: bold;
-			transition: border 0.2s;
-			margin-left: 20px;
-		}
-
-		.experiments a:hover {
-			border-bottom: 2px dashed #fff;
-		}
-
-		.about {
-			max-width: 600px;
-			margin: 0 auto 50px auto;
-			border-radius: 12px;
-			padding: 10px 20px;
-			border: 1px solid #e0dfdf;
-			box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.03);
-		}
-	</style>
+	<link href='style.css' rel="stylesheet"/>
 	
 	<script defer src="https://unpkg.com/tippy.js@3/dist/tippy.all.min.js"></script>
 
 </head>
 <body>
 	
-	<h1 class="tagline">We are a kick-ass startup studio.</h1>
-	<p class="subtitle">We're researching and improving the formula to successful products.</p>
-	
-	<div class='products'>
-		<a class='anygoal' data-tippy="Anygoal<br><small>The best goal tracking tool there is.</small>" target='_blank' href='https://anygoal.app'><img src="./img/anygoal.svg"></a>
-		<a class='nucleus' data-tippy="Nucleus<br><small>Analytics and bug tracking for desktop.</small>" target='_blank' href='https://nucleus.sh'><img src="./img/nucleus.svg"></a>
-		<a class='litch' data-tippy="Litch.app<br><small>Create beautiful payment pages.</small>" target='_blank' href='https://litch.app'><img src="./img/litch.svg"></a>
-		<a class='highdef' data-tippy="Highdef.tv<br><small>Curated videos for stoners.</small>" target='_blank' href='https://highdef.tv'><img src="./img/highdef.svg"></a>
-		<a class='backery' data-tippy="Backery.io<br><small>Web app and database deployment at its simplest.</small>" target='_blank' href='https://backery.io'><img src="./img/backery.svg"></a>
-		<a class='harmony' data-tippy="Harmony<br><small>Beautiful music player, holding all your music.</small>" target='_blank' href='https://getharmony.xyz'><img src="./img/harmony.png"></a>
-		<a class='musli' data-tippy="Musli.io<br><small>Networking for the music industry.</small>" target='_blank' href='https://musli.io'><img src="./img/musli.svg"></a>
-		<a class='lttrfeed' data-tippy="Lttrfeed<br><small>A better way to read newsletters.</small>" target='_blank' href='https://lttrfeed.com'><img src="./img/lttrfeed.svg"></a>
-		
+	<div class="jumbotron">
+		<div>
+			<img height='150' src='./img/logo-color.svg' />
+
+			<div class='products'>
+				<a class='anygoal' data-tippy="Anygoal<br><small>The best goal tracking tool there is.</small>" target='_blank' href='https://anygoal.app'><img src="./img/anygoal.svg"></a>
+				<a class='nucleus' data-tippy="Nucleus<br><small>Analytics and bug tracking for desktop.</small>" target='_blank' href='https://nucleus.sh'><img src="./img/nucleus.svg"></a>
+				<a class='litch' data-tippy="Litch.app<br><small>Create beautiful payment pages.</small>" target='_blank' href='https://litch.app'><img src="./img/litch.svg"></a>
+				<a class='highdef' data-tippy="Highdef.tv<br><small>Curated videos for stoners.</small>" target='_blank' href='https://highdef.tv'><img src="./img/highdef.svg"></a>
+				<a class='backery' data-tippy="Backery.io<br><small>Web app and database deployment at its simplest.</small>" target='_blank' href='https://backery.io'><img src="./img/backery.svg"></a>
+				<a class='harmony' data-tippy="Harmony<br><small>Beautiful music player, holding all your music.</small>" target='_blank' href='https://getharmony.xyz'><img src="./img/harmony.png"></a>
+				<a class='musli' data-tippy="Musli.io<br><small>Networking for the music industry.</small>" target='_blank' href='https://musli.io'><img src="./img/musli.svg"></a>
+				<a class='lttrfeed' data-tippy="Lttrfeed<br><small>A better way to read newsletters.</small>" target='_blank' href='https://lttrfeed.com'><img src="./img/lttrfeed.svg"></a>
+				
+				<p class="subtitle">We're researching the formula to successful products.</p>
+
+			</div>
+		</div>
+
+		<!--<div class='experiments'>
+			Experiments:<br>
+			<a target='_blank' href='https://lttrfeed.com'>💌 Lttrfeed →</a> Newsletters as a feed<br>
+			<a target='_blank' href='https://musli.io'>👨‍🎤 Musli.io →</a> Networking for the music industry<br>
+			<a target='_blank' href='https://highdef.tv'>🎞 Highdef.tv →</a> Curated videos, not what you're used to<br>
+			<a target='_blank' href='http://comparekite.fr'>🏄‍♂️ CompareKite.fr →</a> Kitesurf gear comparison<br>
+			<a target='_blank' href='https://spotfinder.lyser.io'>🗺 SpotFinder →</a> Find kitesurfing spots worldwide<br>
+		</div>-->
+
+		<!-- <p>Need help building a MVP? <a href='/factory'>We do that</a></p> -->
+
 	</div>
 
-	<!--<div class='experiments'>
-		Experiments:<br>
-		<a target='_blank' href='https://lttrfeed.com'>💌 Lttrfeed →</a> Newsletters as a feed<br>
-		<a target='_blank' href='https://musli.io'>👨‍🎤 Musli.io →</a> Networking for the music industry<br>
-		<a target='_blank' href='https://highdef.tv'>🎞 Highdef.tv →</a> Curated videos, not what you're used to<br>
-		<a target='_blank' href='http://comparekite.fr'>🏄‍♂️ CompareKite.fr →</a> Kitesurf gear comparison<br>
-		<a target='_blank' href='https://spotfinder.lyser.io'>🗺 SpotFinder →</a> Find kitesurfing spots worldwide<br>
-	</div>-->
+	<div class='explain'>
+		<img class="perroquet" src='./img/Perroquet.png' />
+		<img class="perroquet2" src='./img/Perroquet.png' />
+		
+		<!-- <img class="ananas" src='./img/Ananas.png' /> -->
 
-	<!-- <p>Need help building a MVP? <a href='/factory'>We do that</a></p> -->
+		<div>
 
-	<br>
+			<h1 class="tagline">We are a kick-ass startup studio.</h1>
+			<p class="smallhr"><span></span></p>
+			<p>Today's age has given us an incredible opportunity to leverage the world's knowledge available online to create delightful products that make our lives more exciting.</p>
+			<br/>
+			<p><b>We are on a mission to use this leverage.</b></p>
+			<br/>
+			<p>Our unfair advantage? The ability to re-use & quickly repeat what we learned in the past to always push the boundaries of creativity. Faster and better than before.</p>
+
+			<br/>
+			<h2>Faster alone, further together</h2>
+			<div class='centered'>
+				<img height='100' src='./img/thefamily.webp' />
+				<br/>
+
+			</div>
+			<p>We joined forces with <a href='https://thefamily.co' target='_blank'>The Family</a> to take things next level with their years of experience in helping startups strive.</p>
+
+			<div class='cta'>
+				<h2>Entrepreneur with a project?</h2>
+				<h3>We are here to help you take your projects from the idea phase to profitability. <a href='mailto: hello@lyser.io'>Reach out</a> to discuss possibilities.</h3>
+			</div>
+		</div>
+
+
+	</div>
 
 	<div class="about">
-		<p><b>Hi,</b> I'm Vince the founder.<br>Read the occasionnal stuff I write <a href='http://vincelwt.substack.com'>here</a> or follow me <a href='https://twitter.com/vincelwt'>@vincelwt</a></p>
-		<iframe src="https://vincelwt.substack.com/embed" width="480" height="150" frameborder="0" scrolling="no"></iframe>
+		<img class="coconut" src='./img/Palmier.webp' />
+		<div>
+			<p>Hey! My name is Vince 🤙</p>
+			<p>Read the occasionnal stuff I write <a href='http://vincelwt.substack.com'>here</a></p>
+			<p>Or follow the journey <a href='https://twitter.com/vincelwt'>on Twitter</a></p>
+			<p>Take care! ✨</p>
+			<br/>
+			<br/>
+
+			<iframe src="https://vincelwt.substack.com/embed" width="100%" height="150" frameborder="0" scrolling="no"></iframe>
+		</div>
+		<img class="coconut2" src='./img/Palmier.webp' />
 		<!-- <p><small>If you'd like to meet let's grab ☕️ in Paris</small></p> -->
 	</div>
 
-	<p>Contact us → hello@lyser.io</p>
-
+	<div class='footer'>
+		<img height='100' src='./img/logo-white.svg' />
+		<br/>
+		<span>hello@lyser.io</span>
+	</div>
 </body>
