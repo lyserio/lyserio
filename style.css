@@ -182,7 +182,7 @@ h2 {
 	width: 850px;
 	position: relative;
 	margin: auto;
-	max-width: 95%;
+	max-width: 100%;
 	text-align: left;
 	box-sizing: border-box;
 }
@@ -238,13 +238,12 @@ h2 {
 .about > div {
 	width: 550px;
 	overflow: hidden;
-	max-width: 80%;
+	max-width: 100%;
 	margin: auto;
 	text-align: left;
 	padding: 40px;
 	position: relative;
 	box-sizing: border-box;
-
 	z-index: 2;
 }
 
@@ -268,12 +267,13 @@ h2 {
 	left: 50%;
 	width: 0;
 	height: 0;
-	border: 31px solid transparent;
+	border: 15px solid transparent;
 	border-top-color: #4588ff;
 	border-bottom: 0;
 	border-left: 0;
-	margin-left: -70px;
-	margin-bottom: -19px;
+	margin-left: -80px;
+	margin-bottom: -10px;
+	transform: rotate(20deg);
 }
 
 .about p > a {
@@ -346,9 +346,13 @@ h2 {
 @media screen and (max-width: 1000px) {
 	.coconut2,
 	.coconut,
-	.perroquet2,
-	.perroquet {
+	.perroquet2 {
 		display: none;
+	}
+
+	.perroquet {
+		position: relative;
+		margin-top: 50px;
 	}
 
 	.jumbotron > div {
@@ -359,6 +363,19 @@ h2 {
 
 	.about,
 	.cta {
-		margin-top: 70px;
+		margin-top: 50px;
+	}
+
+	.cta h2 {
+		font-size: 45px;
+	}
+
+	.cta h3 {
+		font-size: 30px;
+	}
+
+	.about > div,
+	.explain > div {
+		padding: 20px;
 	}
 }
