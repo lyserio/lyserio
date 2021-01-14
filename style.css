@@ -258,10 +258,11 @@ h2 {
 }
 
 .about > div {
-	width: 550px;
+	width: 600px;
 	/*overflow: hidden;*/
 	max-width: 100%;
 	margin: auto;
+	/*padding-bottom: 50px;*/
 	text-align: left;
 	padding: 40px;
 	position: relative;
@@ -273,13 +274,18 @@ h2 {
 .about p {
 	background: #4588ff;
 	padding: 6px 20px;
-	border-radius: 45px;
+	border-radius: 35px;
 	margin-bottom: 0px;
+	margin-left: 50px;
 	font-weight: 500;
 	display: table;
 	color: #fff;
 	text-align:left;
 	position: relative;
+}
+
+.about p:last-of-type {
+	margin-bottom: 60px;
 }
 
 .about p:last-of-type:after {
@@ -305,7 +311,7 @@ h2 {
 
 .about .memoji {
 	position: absolute;
-	left: -30px;
+	left: -50px;
 	bottom: -5px;
 }
 
