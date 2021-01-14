@@ -95,6 +95,7 @@ h2 {
 
 .products > a > img {
 	width: 100%;
+	height: 100%;
 	display: block;
 }
 
@@ -135,7 +136,7 @@ h2 {
 }
 
 .backery {
-	padding: 16px;
+	padding: 19px;
 	background: #980c65;
 	background: linear-gradient(to right, #980c65 0%, #5d216b 100%);
 }
@@ -147,9 +148,21 @@ h2 {
 }
 
 .anygoal {
-	padding: 30px;
+	padding: 26px;
 	background: #19191A;
 	background: linear-gradient(72deg, #19191a, #424449 70%);
+}
+
+.battlebuddy {
+	padding: 24px;
+	background: #615dfa;
+	background: linear-gradient(72deg, #615dfa, #8254fb 60%);
+}
+
+.fresh {
+	padding: 24px;
+	background: #2cc0af;
+	background: linear-gradient(to top, #2cc0af, #52ded1 100%)
 }
 
 /*a[href*=twitter] {
@@ -167,15 +180,15 @@ h2 {
 }
 */
 .experiments {
-	margin: 20px 0;
+	margin: 50px 0;
+	border: 5px solid var(--dark-blue);
+	padding: 40px;
 }
 
 .experiments a {
-	color: white;
 	text-decoration: none;
 	font-weight: bold;
 	transition: border 0.2s;
-	margin-left: 20px;
 }
 
 .experiments a:hover {
@@ -246,7 +259,7 @@ h2 {
 
 .about > div {
 	width: 550px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	max-width: 100%;
 	margin: auto;
 	text-align: left;
@@ -288,6 +301,12 @@ h2 {
 .about p > a {
 	color: #fff;
 	box-shadow: inset 0 -1px 0 #fff;
+}
+
+.about .memoji {
+	position: absolute;
+	left: -30px;
+	bottom: -5px;
 }
 
 .centered {
@@ -341,6 +360,7 @@ h2 {
 .footer {
 	padding: 30px;
 	position: relative;
+	border-top: 5px solid rgba(255, 113, 74, 0.37);
 	z-index: 2;
 	color: #fff;
 	font-size: 30px;
