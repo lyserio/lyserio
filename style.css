@@ -124,7 +124,7 @@ h2 {
 }
 
 .lttrfeed {
-	padding: 16px;
+	padding: 20px;
 	background: #883e87;
 	background: linear-gradient(to left, #a21ba1 0%, #ce4dc1 100%);
 }
@@ -365,6 +365,7 @@ h2 {
 
 .footer {
 	padding: 30px;
+	text-align: center;
 	position: relative;
 	border-top: 5px solid rgba(255, 113, 74, 0.37);
 	z-index: 2;
@@ -377,6 +378,13 @@ h2 {
 
 .footer > span {
 	margin-top: 20px;
+}
+
+.footer .tflogo {
+	/*position:  absolute;*/
+	left: 0;
+	height: 50px;
+	margin: 20px 0;
 }
 
 @media screen and (max-width: 1100px) {
